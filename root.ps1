@@ -139,7 +139,7 @@ function Modify-BlueStacksConfig {
 
 function Clear-AndShowTitle {
     Clear-Host
-    Write-Host "(
+    Write-Host "
                             _      _                             
                          __| |_ __(_)_ ____      ____ _ _ __ ___ 
                         / _` | '__| | '_ \ \ /\ / / _` | '__/ _ \
