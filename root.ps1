@@ -139,7 +139,14 @@ function Modify-BlueStacksConfig {
 
 function Clear-AndShowTitle {
     Clear-Host
-    Write-Host "=== BlueStacks Root Manager ===" -ForegroundColor Cyan
+    Write-Host "
+                            _      _                             
+                         __| |_ __(_)_ ____      ____ _ _ __ ___ 
+                        / _` | '__| | '_ \ \ /\ / / _` | '__/ _ \
+                       | (_| | |  | | |_) \ V  V / (_| | | |  __/
+                        \__,_|_|  |_| .__/ \_/\_/ \__,_|_|  \___|
+                                    |_|                             
+    === BlueStacks Root Manager ===" -ForegroundColor Cyan
     Write-Host ""
 }
 
