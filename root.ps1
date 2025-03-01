@@ -146,7 +146,7 @@ function Clear-AndShowTitle {
                        | (_| | |  | | |_) \ V  V / (_| | | |  __/
                         \__,_|_|  |_| .__/ \_/\_/ \__,_|_|  \___|
                                     |_|                             
-    " -ForegroundColor Cyan
+    " -ForegroundColor Magenta
     Write-Host ""
 }
 
