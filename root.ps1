@@ -1,6 +1,6 @@
 # Define the paths
-$BlueStacksHome = (Get-ItemProperty "HKLM:\SOFTWARE\BlueStacks_msi5").UserDefinedDir
-$BlueStacksInstallDir = (Get-ItemProperty "HKLM:\SOFTWARE\BlueStacks_msi5").InstallDir
+$BlueStacksHome = (Get-ItemProperty "HKLM:\SOFTWARE\BlueStacks_nxt").UserDefinedDir
+$BlueStacksInstallDir = (Get-ItemProperty "HKLM:\SOFTWARE\BlueStacks_nxt").InstallDir
 $DesktopPath = [Environment]::GetFolderPath('Desktop')
 $BlueStacksConfig = Join-Path $BlueStacksHome "bluestacks.conf"
 $BlueStacksEngine = Join-Path $BlueStacksHome "Engine"
